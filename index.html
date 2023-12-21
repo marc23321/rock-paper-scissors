@@ -3,18 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="Style.css"></head>
 <body>
     <div class="header">
+        <!-- <h1>Rock/Paper /Scissors</h1> -->
+    </div>
+
+    <div class="hero">
         <h1>Rock Paper Scissors</h1>
     </div>
-    <div> 
-        <p>Choose a Play </p>
-        <img src="images/Rock.png">
-        <img src="images/Paper.png">
-        <img src="images/Scissors.png">
+
+    <div class="Container"> 
+        
+        <div class="info">
+            <p>Choose a Play </p>
+        </div>
+        <div class="cards">
+           <div class="card"><img src="images/Rock.png"><p>Rock</p></div> 
+           <div class="card"><img src="images/Paper.png"><p>Paper</p></div> 
+           <div class="card"><img src="images/Scissors.png"><p>Scissors</p></div> 
+        </div>
+   
+        <div class="scores">
+            <div id="Pscore">
+                <p>Score: <span id="scoreValue">0</span></p>
+            </div>
+
+            <div id="Cscore">
+                <p>Score: <span id="scoreValue">0</span></p>
+            </div>
+        </div>
     </div>
+    
+
+    <footer>
+        <p>Copyright © The Odin Project 2021</p>
+    </footer>
 </body>
 </html>
 
